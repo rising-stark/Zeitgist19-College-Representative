@@ -1,0 +1,164 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body
+{
+    height: 100%;
+    background-color: #eee;
+}
+.tooltip
+{
+	position:absolute;
+	background-color:#eeeefe;
+	border: 1px solid #aaaaca;
+	font-size: smaller;
+	padding:4px;
+	width: 160px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);	
+}
+/*input::-webkit-input-placeholder{
+    color: red;
+}
+input:-moz-placeholder {
+    color:red;
+}
+
+::-ms-placeholder {
+    color:red;
+}
+
+::placeholder {
+    color:red;
+}*/
+.container {
+	position: absolute;
+	top: -10px;
+	width: 80%;
+	/* background-color: #a4dba4; */
+	height: 400px;
+	left:15%;
+}
+#terms{
+    text-decoration-line: underline;
+}
+#chkbox{
+	width: 20px;
+    height: 20px;
+    position: relative;
+    left: 0%;
+    top: 4px;
+}
+textarea{
+	display: inline-block;
+	width: 87% !important;
+}
+.signUp input{
+	display: inline-block;
+	width:93%;
+}
+.signUp div button{
+	align-content: center;
+	position: relative;
+	left: 10%;
+	top:10px;
+	width:90px;
+	height: 50px;
+}
+#fname{
+	display: inline-block;
+	width: 41%;
+}
+
+#lname{
+	display: inline-block;
+	width: 41%;
+	position: absolute;
+	right: 9%;
+	/*margin-left: 60px;*/
+}
+.signUp img{
+	position: absolute;
+	left: 93%;
+	top: 5px;
+	padding: 0 0px 0 0;
+	width: 32px;
+	height: 30px;
+	/*margin-left: 60px;*/
+}
+#fnameimg{
+    left:42%;
+}
+#whycaimg{
+	position: absolute;
+	left: 87.5%;
+	top: 57%;
+	/*margin-left: 60px;*/
+}
+#success-alert {
+    position: absolute;
+    margin: 0 auto;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    /* top: 50px; */
+     display: none;
+    /* transform: translate(0%, 20%); */
+    width: auto;
+    min-width: 250px;
+    max-width: 400px;
+    height: auto;
+    min-height: 40px;
+    max-height: 140px;
+    padding: 15px 15px 0px 15px;
+    /* border: 2px seagreen solid; */
+    border-radius: 20px;
+    /* line-height: 140px; */
+}
+.grow{
+    animation: grow 0.5s linear infinite;
+    -webkit-animation: grow 0.5s linear infinite;
+    -moz-animation: grow 0.5s linear infinite;
+}
+@keyframes grow{
+    0%{
+        transform: scale(1.0, 1.0);
+    }
+    50%{
+        transform: scale(1.2, 1.2);
+    }
+    100%{
+        transform: scale(1, 1);
+    }
+}
+.three{
+	width: 90%;
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    z-index: 20;
+    height: 97%;
+    background-color: rgba(200, 200, 200, 0.6);
+    display: none;
+    align-items: center;
+    text-align: center;
+    /* vertical-align: baseline; */
+    /* line-height: 140px; */
+}
+.three h1{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+}
+.three img{
+	position: absolute;
+    width: 17%;
+    height: 25%;
+    top: 300px;
+    left: 40%;
+}
